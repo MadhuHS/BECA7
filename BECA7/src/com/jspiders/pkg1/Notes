@@ -1,0 +1,26 @@
+A java package is group of classes and interfaces 
+which are related to one single module in the given project.
+
+Package naming convention
+
+package name is always written in all-lowercase.
+
+package names are always written in reverse order of domain
+
+ convention 1
+  domain.appname.modulename
+  com.gmail.inbox  
+
+  convention 2
+  domain.companyname.appname.modulename
+  com.google.gmail.inbox
+
+Data members and function members of a class present in 
+different package can be accessed by two ways
+
+1 .Using fully qualified class names 
+2 .Using import statement
+
+ A class name which is written with its package name is 
+ called as fully qualified class name.
+ 
