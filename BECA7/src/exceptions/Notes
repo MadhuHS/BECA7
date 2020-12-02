@@ -9,19 +9,19 @@ Exception Handling
 * Error is an unexpected event which occurs at Runtime due to
   hardware or software failure of the system.
   
-* 1.When ever there is an exception JVM will create an 
-  Object of corresponding exception class.
+* When ever there is an exception JVM will create an Object of 
+  corresponding exception class.
 
-* 2.JVM will pass the exception object to the 
-  method which created the exception by using throw keyword
+* JVM will pass the exception object to the method which created the
+  exception by using throw keyword
   
-* 3.If the method is not able to handle the exception object, then
+* If the method is not able to handle the exception object, then
   JVM will terminate the method's execution.
 
-* 4.If no methods are handling the exception object then JVM will call
+* If no methods are handling the exception object then JVM will call
   Default Exception Handler which will handle the exception Object.
   
-* 5.Default exception handler will handle the exception and prints
+* Default exception handler will handle the exception and prints
   - Name of the exception 
   - Reason for the exception
   - Complete stack Trace
@@ -37,4 +37,44 @@ Exception Handling
   {
     alternate code
   }
+  
+  try with multiple catch blocks
+  
+ Exception e  = new ArithmeticException();
+ Exception e2 = new ArrayIndexOutOfBoundsException(); 
+  
+  
+  Generalized try-catch block
+  
+  
+ finally block
+ 
+ * finally block is executed irrespective of occurance of exceptions.
+ * finally block should be written after the catch block.
+  
+  Exception are of 2 types
 
+  1. Checked exception
+  2. Unchecked exception
+  
+  * Exceptions which are checked by the compiler at the compile time
+    are called as checked exceptions.
+  
+  * Exceptions which are not checked by the compiler at the compile time
+    are called as unchecked exceptions.
+  
+  * Leaving RuntimeException and its Subclasses all other exceptions are 
+    checked exceptions.
+    
+  * RuntimeException and all of its Subclasses are Unchecked exceptions.
+  
+  * Exception propagation : 
+    Passing the exception object from called method to 
+    calling method is known as Exception propagation.
+  
+  * Unchecked exceptions will be implicitly propagated by the JVM.  
+  
+  throws keyword
+  
+  * throws keyword is used to propagate checked exceptions explicitly
+    by the programmer.
