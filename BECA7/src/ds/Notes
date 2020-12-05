@@ -1,0 +1,22 @@
+Data Structure : Arranging the data in a particular order to use 
+                 them effeciently in the program.
+                 
+Data structurers are of 2 types
+
+1. Linear DS
+2. Hirarchical DS
+
+1. Linear DS : A type of DS where data are arranged in a linear sequence.
+               Arrays, Stack ,Queue,LinkedList
+
+2. Hirarchical DS : A type of DS where data are arranged 
+               according to some Relation
+               Tree,Graphs
+               
+Object array : 
+               It is a type of array where each and
+               every bucket of the array represents
+               one reference variable;.
+               
+               Within Object array we can store any type of Objects.(Due to Upcasting)
+

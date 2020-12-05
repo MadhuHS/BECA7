@@ -78,3 +78,9 @@ Exception Handling
   
   * throws keyword is used to propagate checked exceptions explicitly
     by the programmer.
+    
+  throw keyword
+
+  * throw keyword is used to throw the exception explicitly by the 
+    programmer according to the application requirements.
+  
