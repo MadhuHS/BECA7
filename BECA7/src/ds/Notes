@@ -18,5 +18,6 @@ Object array :
                every bucket of the array represents
                one reference variable;.
                
-               Within Object array we can store any type of Objects.(Due to Upcasting)
+               Within Object array we can store any type of Objects.
+               (Due to Upcasting)
 
