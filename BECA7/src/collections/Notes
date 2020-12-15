@@ -1,0 +1,68 @@
+  
+   Array                Collection
+
+1. Fixed in size       1. Collection is growable in nature
+                          Size of the collection can be increased
+                          or decreased at the runtime.
+
+2. NO built-in         2. Collection has built-in methods
+   method support         to perform basic and advanced operations
+                          on the group of data.   
+                          
+3. Don't have any      3. Every collection is built by using
+   underlying DS          at least one DS
+   
+4. Supports only       4. By default supports hetrogeneous data
+   homogeneous data   
+  
+ * Collection is a group of references which is represented as One unit.
+ 
+ * Collection are of 3 types
+   
+   1. List
+   2. Set
+   3. Queue
+   
+   
+   List type of Collection
+   
+   * List can store duplicates.
+   * List has index.
+   * List support multiple null values.
+   * List preserve insertion order.
+   
+   
+   ArrayList
+   
+   * ArrayList can store duplicates.
+   * ArrayList has index.
+   * ArrayList support multiple null values.
+   * ArrayList preserve insertion order.
+   
+   * Resizable array is the underlying Data Structure of ArrayList.
+   
+   Constructors of ArrayList
+   
+   ArrayList()
+   Constructs an empty list with an initial capacity of ten.
+   
+   ArrayList(int initialCapacity)
+   Constructs an empty list with the specified initial capacity.
+   
+   ArrayList(Collection c)
+   Constructs a list containing the elements 
+   of the specified collection.
+   
+ 
+   
+   Methods of ArrayList
+   
+   *
+   *
+   ..
+   
+   * ArrayList implementation is not synchronized. 
+   * ArrayList is NOT THREAD SAFE.
+   * If multiple threads access an ArrayList concurrently, 
+     and at least one of the threads modifies the list structurally, 
+     it will impact on other threads.
