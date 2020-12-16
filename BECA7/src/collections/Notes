@@ -54,7 +54,6 @@
    of the specified collection.
    
  
-   
    Methods of ArrayList
    
    *
@@ -66,3 +65,148 @@
    * If multiple threads access an ArrayList concurrently, 
      and at least one of the threads modifies the list structurally, 
      it will impact on other threads.
+     
+        
+  Vector
+   
+   * Vector can store duplicates.
+   * Vector has index.
+   * Vector support multiple null values.
+   * Vector preserve insertion order.
+   
+   * Resizable array is the underlying Data Structure of Vector.
+   
+   * The increase of capacity can be controlled by the programmer
+     by specifying the capacityIncrement in the constructor.
+     
+   Constructors of Vector 
+     
+   Vector()
+   Constructs an empty vector so that its internal 
+   data array has size 10 and its standard 
+   capacity increment is zero.
+   
+   Vector(Collection c)
+   Constructs a vector containing the elements 
+   of the specified collection.
+  
+   Vector(int initialCapacity)
+   Constructs an empty vector with the specified 
+   initial capacity and with its capacity increment 
+   equal to zero.
+   
+   Vector(int initialCapacity, int capacityIncrement)
+   Constructs an empty vector with the specified initial 
+   capacity and capacity increment.
+   
+   * Vector implementation is synchronized. 
+   * Vector is THREAD SAFE.
+   * If multiple threads access an Vector concurrently, 
+     and at least one of the threads modifies the Vector structurally, 
+     it will NOT impact on other threads.
+   
+----------------------------------------------------------------------
+   Set type of collection
+   
+   * Set do not store duplicates.
+   * Set don not have index.
+   * Set support to store ONLY ONE null values.
+   * Set do not preserve insertion order.
+   
+    
+   HashSet
+   
+   * HashSet do not store duplicates.
+   * HashSet don not have index.
+   * HashSet support to store ONLY ONE null values.
+   * HashSet do not preserve insertion order.
+   
+   * Underlying Data Structure of HashSet is Hash Table.
+   
+   Iterator :
+   
+   * Iterator is cursor which is used to retrieve the element
+     present in any given collection.
+     
+   * Iterator is created automatically whenever the collection
+     object is created.
+     
+   * For every Collection separate iterator is created.
+   
+   * We can access the iterator of the given collection
+     by calling iterator().
+     
+   * The iterator reference returned by the iterator()
+     should be stored within a reference variable 
+     of Iterator type.
+    
+   Load Factor : It is a threshold that decides when should be
+                 the collection created based on elements added.
+     
+   Constructor of HashSet 
+   HashSet()
+   Constructs a new, empty set with
+   initial capacity (16) and load factor (0.75).
+   
+   HashSet(Collection c)
+   Constructs a new set containing the elements 
+   in the specified collection.
+   
+   HashSet(int initialCapacity)
+   Constructs a new, empty set with specified 
+   initial capacity and default load factor (0.75).
+   
+   HashSet(int initialCapacity, float loadFactor)
+   Constructs a new, empty set with the specified
+   initial capacity and the specified load factor.
+   
+   * HashSet implementation is not synchronized. 
+   * HashSet is NOT THREAD SAFE.
+   * If multiple threads access an HashSet concurrently, 
+     and at least one of the threads modifies the list structurally, 
+     it will impact on other threads.
+   
+--------------------------------------------------------------------------------------
+   
+    LinkedHashSet
+   
+   * LinkedHashSet do not store duplicates.
+   * LinkedHashSet don not have index.
+   * LinkedHashSet support to store ONLY ONE null values.
+   * LinkedHashSet always preserve insertion order.
+   
+   * Underlying Data Structures of LinkedHashset 
+     is Hash Table and Linked list.
+     
+   Constructor of LinkedHashSet 
+   LinkedHashSet()
+   Constructs a new, empty set with
+   initial capacity (16) and load factor (0.75).
+   
+   LinkedHashSet(Collection c)
+   Constructs a new set containing the elements 
+   in the specified collection.
+   
+   LinkedHashSet(int initialCapacity)
+   Constructs a new, empty set with specified 
+   initial capacity and default load factor (0.75).
+   
+   LinkedHashSet(int initialCapacity, float loadFactor)
+   Constructs a new, empty set with the specified
+   initial capacity and the specified load factor.
+   
+   * LinkedHashSet implementation is not synchronized. 
+   * LinkedHashSet is NOT THREAD SAFE.
+   * If multiple threads access an LinkedHashSet concurrently, 
+     and at least one of the threads modifies the list structurally, 
+     it will impact on other threads.  
+   
+ ----------------------------------------
+     
+     
+     
+     
+     
+     
+     
+     
