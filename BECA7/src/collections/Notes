@@ -202,7 +202,18 @@
      it will impact on other threads.  
    
  ----------------------------------------
-     
+     TreeSet
+ 
+   * TreeSet do not store duplicates.
+   * TreeSet do not have index.
+   * TreeSet do not support to store null values (not even one null).
+     if you try to add null value then JVM throws NullPointerException 
+  
+   * TreeSet do not preserve insertion order.
+   * TreeSet do not allow heterogeneous data.
+   
+   * Underlying DS of TreeSet is Binary Search Tree and data
+     is retrieved using in-order technique.(LEFT-PARENT-RIGHT) 
      
      
      
