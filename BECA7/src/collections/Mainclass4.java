@@ -14,7 +14,6 @@ public class Mainclass4 {
         t1.add("apple");
         t1.add("dog");
         t1.add("ant");
-        t1.add("APPLE");
         
         t1.forEach(obj -> System.out.println(obj));
         
