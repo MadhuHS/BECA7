@@ -266,9 +266,105 @@
        - Pass implementation class Object's reference to the
          constructor of TreeSet.
      
+   Queue  
+   * Queue stores duplicates.
+   * Queue has index.
+   * Queue support to store multiple null values.
+   * Queue do preserve insertion order.
      
+      
+    Priority Queue
+    
+   * Priority Queue store duplicates.
+   * Priority Queue do not have index.
+   * Priority Queue do not support to store null values (not even one null).
+     if you try to add null value then JVM throws NullPointerException 
+  
+   * Priority Queue do not preserve insertion order.
+   * Priority Queue do not allow heterogeneous data.
+   
+   * Underlying DS of Priority Queue is Priority Heap.
+   * Data from Priority Queue is retrieved using poll().
+   
+   * poll() : Retrieves and removes the head element of the queue
+   
+   
+    Constructors of Priority Queue
      
+    PriorityQueue()
+    Creates a PriorityQueue with the 
+    default initial capacity (11) that orders 
+    its elements according to their natural ordering.
+    
+    PriorityQueue(Comparator comparator)
+    Creates a PriorityQueue with the default initial capacity 
+    and whose elements are ordered according to the specified comparator.
+   
+    PriorityQueue(int initialCapacity)
+    Creates a PriorityQueue with the specified initial capacity 
+    that orders its elements according to their natural ordering.
+   
+    PriorityQueue(int initialCapacity, Comparator comparator)
+    Creates a PriorityQueue with the specified initial capacity 
+    that orders its elements according to the specified comparator.
+          
      
+    * Only Objects of those classes which are implementing Comparable Interface
+      and Overriding compareTo() can be added to PriorityQueue.
+ 
+    * If you create a PriorityQueue object by using PriorityQueue() then
+      elements sorted according to the natural ordering depending
+      on compareTo() present in the class.
+      
+    * If you create a PriorityQueue object by using PriorityQueue(Comparator comp) then
+      elements sorted according to the customized ordering depending
+      on compare() present in the programmer define class. 
+      
+  NOTE: ANY DATA STRUCTURE BASED ON NODES WILL NOT HAVE ANY INITIAL CAPACITY    
+      
+   LinkedList  
+   * LinkedList stores duplicates.
+   * LinkedList has index.
+   * LinkedList support to store multiple null values.
+   * LinkedList do preserve insertion order.
+   * Underlying DS of LinkedList is Doubly-LinkedList.
+   * Data from LinkedList is retrieved using poll() or get(index).
+   
+   Constructors of LinkedList
+   
+   LinkedList()
+   Constructs an empty list.
+
+   LinkedList(Collection c)
+   Constructs a list containing the elements of the specified collection.
+   
+ ------------------------------------------------------------------------------------------
+    HashMap
+     
+   * HashMap do not store duplicate keys.
+   * HashMap stores duplicate value.
+   * HashMap do not have index.
+   * KEY and VALUE are added to HashMap using put(key,value)
+   * Value from HashMap is retrieved using get(key).
+   * If you try to add a New value with Old Key then,
+     the old value will be replaced with the new value for the given key.
+   * Only one key can be Null.
+   * Values in HashMap can be Null.
+   * HashMap do not preserve insertion order.
+   * Underlying DS of HashMap is HashTable.
+   
+   
+     
+      Generics
+   
+   * Generics are used to achieve two goals  
+     1.Making the given collection Type Safe.
+     2.To avoid Unwanted down casting.
+     
+    * generics are declared with Collection Decleartion
+    * generics should be always written within angular brackets.
+     
+     Syntax : CollectionName<Type> ref = new CollectionName<Type>();
      
      
      
